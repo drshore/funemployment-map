@@ -1,7 +1,3 @@
-#google maps api token AIzaSyAm-jicOsD0ftfijUUmDDlZNtGMeu1E8rM
-#mapbox api secret token sk.eyJ1IjoiZHJzaG9yZSIsImEiOiJjbGdmaHdtN2UwMXFoM2ZxcWZ1bmp6aWp2In0.dVc70fNLhFfyft1Cu0_6ig
-
-
 import os
 import pandas as pd
 import requests
