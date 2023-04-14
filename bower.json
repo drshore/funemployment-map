@@ -1,0 +1,19 @@
+{
+  "name": "funemployment2022_map",
+  "authors": [
+    "David Shore"
+  ],
+  "description": "A map of our Funemployment2022 travels using flask and mapbox",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "turf": "^3.5.2"
+  }
+}

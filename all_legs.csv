@@ -1,0 +1,121 @@
+mode,origin_latitude,origin_longitude,destination_latitude,destination_longitude,route_name
+driving,37.7773159,-122.4789618,47.689452,-122.322404,"560 20th Ave, SF, CA 94121 > 511 Northeast 84th Street, Seattle, WA 98115, USA"
+driving,47.689452,-122.322404,48.9242888,-122.077093,"511 Northeast 84th Street, Seattle, WA 98115, USA > Maple Falls, Washington"
+driving,48.9242888,-122.077093,49.2827291,-123.1207375,"Maple Falls, Washington > Vancouver, Canada"
+driving,49.2827291,-123.1207375,47.689452,-122.322404,"Vancouver, Canada > 511 Northeast 84th Street, Seattle, WA 98115, USA"
+driving,47.689452,-122.322404,45.515232,-122.6783853,"511 Northeast 84th Street, Seattle, WA 98115, USA > Portland, Oregon"
+driving,45.515232,-122.6783853,44.0581728,-121.3153096,"Portland, Oregon > Bend, Oregon"
+driving,44.0581728,-121.3153096,43.6150186,-116.2023137,"Bend, Oregon > Boise, Idaho"
+driving,43.6150186,-116.2023137,40.7607793,-111.8910474,"Boise, Idaho > Salt Lake City, Utah"
+driving,40.7607793,-111.8910474,37.2982022,-113.0263005,"Salt Lake City, Utah > Zion National Park, Utah"
+driving,37.2982022,-113.0263005,37.5930377,-112.1870895,"Zion National Park, Utah > Bryce Canyon National Park, Utah"
+driving,37.5930377,-112.1870895,38.0877312,-111.1354983,"Bryce Canyon National Park, Utah > Capitol Reef National Park, Utah"
+driving,38.0877312,-111.1354983,38.2135733,-109.9025345,"Capitol Reef National Park, Utah > Canyonlands National Park, Utah"
+driving,38.2135733,-109.9025345,38.733081,-109.5925139,"Canyonlands National Park, Utah > Arches National Park, Utah"
+driving,38.733081,-109.5925139,39.5505376,-107.3247762,"Arches National Park, Utah > Glenwood Springs, Colorado"
+driving,39.5505376,-107.3247762,41.8666341,-103.6671662,"Glenwood Springs, Colorado > Scottsbluff, Nebraska"
+driving,41.8666341,-103.6671662,43.5724388,-103.4415644,"Scottsbluff, Nebraska > Wind Cave National Park, SD"
+driving,43.5724388,-103.4415644,43.8553804,-102.3396912,"Wind Cave National Park, SD > Badlands National Park, SD"
+driving,43.8553804,-102.3396912,46.8771863,-96.7898034,"Badlands National Park, SD > Fargo, North Dakota"
+driving,46.8771863,-96.7898034,44.977753,-93.2650108,"Fargo, North Dakota > Minneapolis, MN"
+driving,44.977753,-93.2650108,43.3033056,-91.7857092,"Minneapolis, MN > Decorah, Iowa"
+driving,43.3033056,-91.7857092,43.0721661,-89.4007501,"Decorah, Iowa > Madison, WI"
+driving,43.0721661,-89.4007501,43.0389025,-87.9064736,"Madison, WI > Milwaukee, WI"
+driving,43.0389025,-87.9064736,41.8781136,-87.6297982,"Milwaukee, WI > Chicago, Illinois"
+driving,41.8781136,-87.6297982,41.6532678,-87.0524338,"Chicago, Illinois > Indiana Dunes National Park, Indiana"
+driving,41.6532678,-87.0524338,39.768403,-86.158068,"Indiana Dunes National Park, Indiana > Indianapolis, Indiana"
+driving,39.768403,-86.158068,37.3826741,-80.1097462,"Indianapolis, Indiana > Catawba, Virginia"
+driving,37.3826741,-80.1097462,37.5407246,-77.4360481,"Catawba, Virginia > Richmond, VA"
+train,41.5034271,-74.0104178,40.7383739,-74.0053442,"Newburgh, NY > 630 Hudson St, New York, NY 10014"
+train,40.7383739,-74.0053442,41.5034271,-74.0104178,"630 Hudson St, New York, NY 10014 > Newburgh, NY"
+driving,37.5407246,-77.4360481,41.5034271,-74.0104178,"Richmond, VA > Newburgh, NY"
+driving,41.5034271,-74.0104178,44.4758825,-73.212072,"Newburgh, NY > Burlington, VT"
+driving,44.4758825,-73.212072,44.3879504,-71.1727881,"Burlington, VT > Gorham, NH"
+driving,44.3879504,-71.1727881,44.3385559,-68.2733346,"Gorham, NH > Acadia National Park, Maine"
+driving,44.3385559,-68.2733346,42.3600825,-71.0588801,"Acadia National Park, Maine > Boston, MA"
+driving,42.3600825,-71.0588801,39.7876112,-75.6966001,"Boston, MA > Hockessin, DE"
+driving,39.7876112,-75.6966001,39.744655,-75.5483909,"Hockessin, DE > Wilmington, DE"
+driving,39.744655,-75.5483909,39.9525839,-75.1652215,"Wilmington, DE > Philadelphia, PA"
+driving,39.9525839,-75.1652215,39.0839973,-77.1527578,"Philadelphia, PA > Rockville, MD"
+driving,39.0839973,-77.1527578,37.5407246,-77.4360481,"Rockville, MD > Richmond, VA"
+flights,38.851242,-77.0402315,39.8730385,-75.2437468,Reagan International Airport > Philadelphia International Airport
+flights,39.8730385,-75.2437468,52.3105386,4.7682744,Philadelphia International Airport > AMS Airport
+flights,52.3105386,4.7682744,46.2369794,6.1090888,AMS Airport > Geneva Airport
+flights,46.2369794,6.1090888,31.6294723,-7.9810845,Geneva Airport > Marrakech Airport
+flights,34.0181246,-5.0078451,41.2421186,-8.6785514,Fes Airport > Porto Airport
+flights,41.2421186,-8.6785514,52.3105386,4.7682744,Porto Airport > AMS Airport
+flights,52.3105386,4.7682744,25.0796514,121.234217,AMS Airport > Taipei Airport
+flights,25.0796514,121.234217,21.2187149,105.8041709,Taipei Airport > Hanoi Airport
+flights,21.2187149,105.8041709,1.3644202,103.9915308,Hanoi Airport > Singapore Airport
+flights,1.3644202,103.9915308,18.767749,98.9640088,Singapore Airport > Chiang Mai Airport
+flights,2.7417476,101.7015569,-7.3788851,112.7872891,Kuala Lumpur Airport > Surabaya Airport
+flights,-8.7619482,116.2735345,2.7417476,101.7015569,Lombok Airport > Kuala Lumpur Airport
+flights,2.7417476,101.7015569,35.5493932,139.7798386,Kuala Lumpur Airport > Tokyo Airport
+flights,35.5493932,139.7798386,38,180,Tokyo Airport > Date line
+flights,38,-180,45.5018869,-73.5673919,Date line > Montreal Airport
+flights,45.5018869,-73.5673919,19.4360762,-99.0719083,Montreal Airport > Mexico City Airport
+flights,19.4360762,-99.0719083,32.7766642,-96.7969879,Mexico City Airport > Dallas Airport
+flights,32.7766642,-96.7969879,37.5407246,-77.4360481,Dallas Airport > Richmond Virginia Airport
+cycling,52.3675734,4.9041389,52.0704978,4.3006999,Amsterdam > The Hague
+cycling,52.0704978,4.3006999,51.8132979,4.6900929,The Hague > Dordrecht
+cycling,51.8132979,4.6900929,51.6354752,4.3710842,Dordrecht > Dinteloord
+cycling,51.6354752,4.3710842,51.2213404,4.4051485,Dinteloord > Antwerp
+cycling,51.2213404,4.4051485,51.0500182,3.7303351,Antwerp > Ghent
+cycling,51.0500182,3.7303351,51.2091807,3.2247552,Ghent > Bruges
+cycling,51.2091807,3.2247552,50.9205829,3.2536111,Bruges > Ingelmunster via Roselare
+cycling,50.9205829,3.2536111,50.855593,2.726943,Ingelmunster via Roselare > Poperinge
+cycling,50.855593,2.726943,50.826806,3.2543899,Poperinge > Kortrijk
+cycling,50.826806,3.2543899,50.8459459,3.6023525,Kortrijk > Oudenaarde
+cycling,50.8459459,3.6023525,50.8052993,4.1545887,Oudenaarde > Lennik
+cycling,50.8052993,4.1545887,50.8476424,4.3571696,Lennik > Brussels
+cycling,50.8476424,4.3571696,51.0259143,4.4775553,Brussels > Mechelen
+cycling,51.0259143,4.4775553,52.3675734,4.9041389,Mechelen > Amsterdam
+bus,46.2369794,6.1090888,45.923697,6.869433,"Geneva Airport > Chamonix, FR"
+hiking,45.923697,6.869433,45.892013,6.712187,"Chamonix, FR > Saint Gervais, FR"
+hiking,45.892013,6.712187,45.822746,6.726553,"Saint Gervais, FR > Les Contamines, FR"
+hiking,45.822746,6.726553,45.697512,6.73441,"Les Contamines, FR > Les Chapieux, FR"
+hiking,45.697512,6.73441,45.7969221,6.9689626,"Les Chapieux, FR > Courmayeur, IT"
+hiking,45.7969221,6.9689626,45.846917,7.033524,"Courmayeur, IT > Rifugio Bonatti, IT"
+hiking,45.846917,7.033524,45.933198,7.0986502,"Rifugio Bonatti, IT > La Fouly,  switzerland"
+hiking,45.933198,7.0986502,46.0556748,6.996041,"La Fouly,  switzerland > Trient, switzerland"
+hiking,46.0556748,6.996041,45.9835921,6.9268812,"Trient, switzerland > Argentiere, FR"
+hiking,45.9835921,6.9268812,45.923697,6.869433,"Argentiere, FR > Chamonix, FR"
+bus,45.923697,6.869433,46.2043907,6.1431577,"Chamonix, FR > Geneva, SWZ"
+bus,31.6294723,-7.9810845,31.5084926,-9.7595041,"Marrakech, Morocco > essaouira, morocco"
+bus,31.5084926,-9.7595041,31.6294723,-7.9810845,"essaouira, morocco > Marrakech, Morocco"
+train,31.6294723,-7.9810845,34.0181246,-5.0078451,"Marrakech, Morocco > Fez, Morocco"
+train,41.1579438,-8.6291053,40.6405055,-8.6537539,"Porto, Portugal > Averio, Portugal"
+train,40.6405055,-8.6537539,40.2033145,-8.4102573,"Averio, Portugal > Coimbra, Portugal"
+bus,40.2033145,-8.4102573,38.7222524,-9.1393366,"Coimbra, Portugal > Lisbon, Portugal"
+bus,38.7222524,-9.1393366,38.8286899,-9.4643005,"Lisbon, Portugal > Praia das Macas, Portugal"
+train,38.8286899,-9.4643005,38.7222524,-9.1393366,"Praia das Macas, Portugal > Lisbon, Portugal"
+bus,38.7222524,-9.1393366,41.1579438,-8.6291053,"Lisbon, Portugal > Porto, Portugal"
+bus,52.3675734,4.9041389,49.8988135,10.9027636,"Amsterdam, Netherlands > Bamberg, Germany"
+train,49.8988135,10.9027636,49.4521018,11.0766654,"Bamberg, Germany > Nuremburg, Germany"
+cycling,49.4521018,11.0766654,48.8414126,12.9572212,"Nuremburg, Germany > Deggendorf, Germany"
+cycling,48.8414126,12.9572212,48.5667364,13.4319466,"Deggendorf, Germany > Passau, Germany"
+cycling,48.5667364,13.4319466,48.3237098,14.1883431,"Passau, Germany > Wilhering, Austria"
+cycling,48.3237098,14.1883431,48.30694,14.28583,"Wilhering, Austria > Linz, Austria"
+bus,48.30694,14.28583,48.8127354,14.3174657,"Linz, Austria > Cesky Krumlov, CZ"
+bus,48.8127354,14.3174657,48.30694,14.28583,"Cesky Krumlov, CZ > Linz, Austria"
+cycling,48.30694,14.28583,48.1764209,15.0820859,"Linz, Austria > Ybbs, Austria"
+cycling,48.1764209,15.0820859,48.22647,15.34996,"Ybbs, Austria > Melk, Austria"
+cycling,48.22647,15.34996,48.40999,15.60384,"Melk, Austria > Krems, Austria"
+cycling,48.40999,15.60384,48.2081743,16.3738189,"Krems, Austria > Vienna, Austria"
+cycling,48.2081743,16.3738189,48.1485965,17.1077477,"Vienna, Austria > Bratislava, Slovakia"
+cycling,48.1485965,17.1077477,47.6874569,17.6503974,"Bratislava, Slovakia > Györ, Hungary"
+cycling,47.6874569,17.6503974,47.7390852,18.1267006,"Györ, Hungary > Komárom, Hungary"
+cycling,47.7390852,18.1267006,47.6795337,19.0668602,"Komárom, Hungary > Szentendre, Hungary"
+cycling,47.6795337,19.0668602,47.497912,19.040235,"Szentendre, Hungary > Budapest, Hungary"
+bus,47.497912,19.040235,45.6495264,13.7768182,"Budapest, Hungary > Trieste, Italy"
+cycling,45.6495264,13.7768182,45.3796024,13.7226113,"Trieste, Italy > Groznjan, Croatia"
+cycling,45.3796024,13.7226113,45.2271652,13.5947399,"Groznjan, Croatia > Porec, Croatia"
+cycling,45.2271652,13.5947399,45.0811661,13.6387067,"Porec, Croatia > Rovinj, Croatia"
+cycling,45.0811661,13.6387067,44.8666232,13.8495788,"Rovinj, Croatia > Pula, Croatia"
+ferry,44.8666232,13.8495788,44.5315814,14.4720423,"Pula, Croatia > Mali Losinj, Croatia"
+ferry,44.5315814,14.4720423,44.3997441,14.6843429,"Mali Losinj, Croatia > Silba, Croatia"
+ferry,44.3997441,14.6843429,44.119371,15.2313648,"Silba, Croatia > Zadar, Croatia"
+bus,44.119371,15.2313648,44.8653966,15.5820119,"Zadar, Croatia > Plitvice Lakes, Croatia"
+bus,44.8653966,15.5820119,45.8150108,15.981919,"Plitvice Lakes, Croatia > Zagreb, Croatia"
+train,45.8150108,15.981919,48.1351253,11.5819806,"Zagreb, Croatia > Munich, Germany"
+train,48.1351253,11.5819806,52.3675734,4.9041389,"Munich, Germany > Amsterdam, Netherlands"
