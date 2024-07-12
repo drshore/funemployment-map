@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Add a line to a map using a GeoJSON source</title>
+<title>Funemployment2022</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
@@ -20,13 +20,13 @@ z-index: 1;
 top: 10px;
 right: 10px;
 border-radius: 3px;
-width: 120px;
+width: 200px;
 border: 1px solid rgba(0, 0, 0, 0.4);
 font-family: 'Open Sans', sans-serif;
 }
     
 #menu a {
-font-size: 13px;
+font-size: 14px;
 color: #404040;
 display: block;
 margin: 0;
@@ -59,7 +59,7 @@ background: #3074a4;
 <nav id="menu"></nav>
 <div id="map"></div>
 <script>
-	mapboxgl.accessToken = '{{ ACCESS_KEY }}';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZHJzaG9yZSIsImEiOiJjbGdwN2hiNWswcDRkM2drYzB6anR1ejFvIn0.g51NQwBUXwvOrz5f_r7CSg';
     const map = new mapboxgl.Map({
         container: 'map',
         // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
@@ -1659,7 +1659,8 @@ background: #3074a4;
             },
             'paint': {
                 'line-color': '#ff8c00',
-                'line-width': 5
+                'line-width': 3,
+                'line-dasharray': [1, 2]
             }
         });
         map.addSource('flights_fes_chiangmai', {
@@ -1691,10 +1692,11 @@ background: #3074a4;
             },
             'paint': {
                 'line-color': '#ff8c00',
-                'line-width': 5
+                'line-width': 3,
+                'line-dasharray': [1, 2]
             }
         });
-        map.addSource('flights_kl_dateline', {
+        map.addSource('flights_kl_surabaya', {
             'type': 'geojson',
             'data': {
                 'type': 'Feature',
@@ -1703,7 +1705,33 @@ background: #3074a4;
                     'type': 'LineString',
                     'coordinates': [
                         [101.7015569, 2.7417476],
-                        [112.7872891, -7.3788851],
+                        [112.7872891, -7.3788851]
+                    ]
+                }
+            }
+        });
+        map.addLayer({
+            'id': 'flights_kl_surabaya',
+            'type': 'line',
+            'source': 'flights_kl_surabaya',
+            'layout': {
+                'line-join': 'round',
+                'line-cap': 'round'
+            },
+            'paint': {
+                'line-color': '#ff8c00',
+                'line-width': 3,
+                'line-dasharray': [1, 2]
+            }
+        });
+        map.addSource('flights_lombok_dateline', {
+            'type': 'geojson',
+            'data': {
+                'type': 'Feature',
+                'properties': {},
+                'geometry': {
+                    'type': 'LineString',
+                    'coordinates': [
                         [116.2735345, -8.7619482],
                         [101.7015569, 2.7417476],
                         [140.3928501, 35.7719867],
@@ -1713,16 +1741,17 @@ background: #3074a4;
             }
         });
         map.addLayer({
-            'id': 'flights_kl_dateline',
+            'id': 'flights_lombok_dateline',
             'type': 'line',
-            'source': 'flights_kl_dateline',
+            'source': 'flights_lombok_dateline',
             'layout': {
                 'line-join': 'round',
                 'line-cap': 'round'
             },
             'paint': {
                 'line-color': '#ff8c00',
-                'line-width': 5
+                'line-width': 3,
+                'line-dasharray': [1, 2]
             }
         });
         map.addSource('flights_dateline_richmond', {
@@ -1752,7 +1781,8 @@ background: #3074a4;
             },
             'paint': {
                 'line-color': '#ff8c00',
-                'line-width': 5
+                'line-width': 3,
+                'line-dasharray': [1, 2]
             }
         });
     });
@@ -1767,7 +1797,8 @@ background: #3074a4;
         // Enumerate ids of the layers.
         const toggleableLayerIds = [
             'cross_country_driving', 'usne_train', 'usne_driving', 'flights_regan_marrakech', 
-            'flights_fes_chiangmai', 'flights_kl_dateline', 'flights_dateline_richmond'];
+            'flights_fes_chiangmai', 'flights_kl_surabaya', 'flights_lombok_dateline', 
+            'flights_dateline_richmond'];
 
         const modes = [
             'driving', 'train', 'flights', 'cycling'];

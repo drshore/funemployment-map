@@ -4,7 +4,7 @@ import requests
 import json
 import settings
 
-MAPBOX_ACCESS_KEY = MAPBOX_ACCESS_KEY
+MAPBOX_ACCESS_KEY = os.environ.get('MAPBOX_ACCESS_KEY')
 
 def create_route_json(row):
     """Get route JSON."""
@@ -14,7 +14,7 @@ def create_route_json(row):
         if row['mode'] in ('driving', 'bus'):
             route_type = 'driving/'
         if row['mode'] == 'cycling':
-            route_type = 'cycling/'  
+            route_type = 'cycling/'
         if row['mode'] == 'hiking':
             route_type = 'walking/'
         url = base_url + route_type + str(row['origin_longitude']) + \

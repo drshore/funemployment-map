@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <title></title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src='https://cdn.jsdelivr.net/npm/papaparse@5.5.1'></script>
+    </head>
+    <body>
+        <div id='map'></div>
+        <script>
+            // Initialize the map
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZHJzaG9yZSIsImEiOiJjbGdwN2hiNWswcDRkM2drYzB6anR1ejFvIn0.g51NQwBUXwvOrz5f_r7CSg';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v12', // Adjust the style URL as needed
+            center: [-100.77, 39.47], // Center the map at [0, 0] coordinates
+            zoom: 2 // Set the initial zoom level
+            });
+
+            // Read the CSV file
+            fetch('legs_with_direction_coordinates.csv')
+            .then(response => response.text())
+            .then(data => {
+                // Parse the CSV data
+                var parsedData = Papa.parse(data, { header: true }).data;
+
+                // Create an array of coordinates from the CSV data
+                var coordinates = parsedData.map(row => {
+                    return [parseFloat(row.origin_longitude), parseFloat(row.origin_latitude)];
+                });
+
+                // Add a source and layer for the points
+                map.on('load', function() {
+                map.addSource('points', {
+                    type: 'geojson',
+                    data: {
+                    type: 'FeatureCollection',
+                    features: coordinates.map(coord => {
+                        return {
+                        type: 'Feature',
+                        geometry: {
+                            type: 'LineString',
+                            coordinates: coord
+                        }
+                        };
+                    })
+                    }
+                });
+
+                map.addLayer({
+                    'id': 'test',
+                    'type': 'line',
+                    'layout': {
+                        'line-join': 'round',
+                        'line-cap': 'round'
+                    },
+                    'paint': {
+                        'line-color': '#00008b',
+                        'line-width': 5
+                    }
+                });
+                });
+            })
+            .catch(error => console.log('Error:', error));
+        </script>
+    </body>
+</html>
